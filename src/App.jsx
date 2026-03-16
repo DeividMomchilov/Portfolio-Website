@@ -8,9 +8,9 @@ import Skills from './components/Skills';
 
 export default function App() {
   return (
-    <div className="bg-white font-sans scroll-smooth">
+    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-slate-100 font-sans scroll-smooth">
       <Header />
-      <main>
+      <main className="max-w-6xl mx-auto px-4">
         <Hero />
         <Skills />
         <Projects />
